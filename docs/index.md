@@ -19,15 +19,10 @@
 - [Canvas Data Structure](/docs/development/canvas-data-structure)
 - [How the Local Codex Connection Works](/docs/development/local-codex-canvas)
 
-## Business
+## Project Information
 
 - [Open-source License](/docs/business/license)
-- [Business Cooperation](/docs/business/business)
-
-## Support and Security
-
 - [Report a Vulnerability](/docs/support/security)
-- [Sponsor the Project](/docs/support/sponsor)
 
 ## Project Progress
 

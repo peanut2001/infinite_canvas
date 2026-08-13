@@ -61,10 +61,18 @@ bun run dev
 ### Docker 运行
 
 ```bash
-git clone git@github.com:basketikun/infinite-canvas.git
-cd infinite-canvas
-docker compose up -d
+docker run -d --name infinite-canvas -p 3000:3000 \
+  ghcr.io/peanut2001/infinite_canvas:latest
 ```
+
+固定版本运行（例如 `0.15.2`）：
+
+```bash
+docker run -d --name infinite-canvas -p 3000:3000 \
+  ghcr.io/peanut2001/infinite_canvas:0.15.2
+```
+
+向 `main` 推送并更新根目录 `VERSION` 后，GitHub Actions 会自动创建版本 Tag、Release，并发布 GHCR 镜像。
 
 运行后默认端口3000，可访问 `http://localhost:3000`。
 

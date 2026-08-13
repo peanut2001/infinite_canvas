@@ -1,6 +1,6 @@
 services:
   app:
-    image: ghcr.io/basketikun/infinite-canvas:latest
+    image: ghcr.io/peanut2001/infinite_canvas:latest
     container_name: infinite-canvas
     ports:
       - "3000:3000"
@@ -9,3 +9,5 @@ services:
     # environment:
     #   ANALYTICS_GA4_ID: G-XXXXXXXXXX                    # Google Analytics 4 衡量 ID
     #   ANALYTICS_BAIDU_ID: xxxxxxxxxxxxxxxxxxxxxxxxxxxx   # 百度统计站点 ID
+
+    # 固定版本时可改为 ghcr.io/peanut2001/infinite_canvas:0.15.2

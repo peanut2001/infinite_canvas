@@ -2,6 +2,8 @@
 
 ## Unreleased
 
++ [新增] 推送 main 并更新 VERSION 后自动创建 GitHub Release，并发布带版本号与 latest 标签的多架构 GHCR Docker 镜像。
+
 + [调整] 精简 README 与文档索引，仅保留项目功能介绍，移除赞助、商务合作和联系方式内容。
 
 + [新增] 提示词来源新增 Freestylefly GPT Image 2 内置来源。
